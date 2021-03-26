@@ -4,6 +4,7 @@ import { Menu } from "./styles";
 /* CONST HEADER APENAS PARA LOGO*/
 const Header = () => {
     return (
+    <>
        <div className="container">
            <Container>
                 <img src="/img/logo.png" alt="texto alternativo" />
@@ -27,6 +28,7 @@ const Header = () => {
             </Menu>
         
       </div>
+    </>
     );
 }
 
